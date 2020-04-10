@@ -6,7 +6,7 @@ const MESSAGE = (process.env.MESSAGE == undefined) ? 'Nothing important' : proce
 var app = express();
 app.get('/', function (req, res) {
  console.log(req);
- res.send('Hello world\n');
+ res.send('Hello world !!!!\n');
 });
 
 app.listen(PORT);
